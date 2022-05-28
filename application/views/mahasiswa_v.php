@@ -34,6 +34,7 @@
                   <th>No</th>
                   <th scope="col">NIM</th>
                   <th scope="col">NAMA</th>
+                  <th scope="col">Alamat</th>
                   <th scope="col">foto ktp</th>
                   <th scope="col">foto Diri</th>
                   <th scope="col">AKSI</th>
@@ -48,6 +49,7 @@
                     <td><?php echo $no++ ?></td>
                     <td><?php echo $mhs['nim'] ?></td>
                     <td><?php echo $mhs['nama_mahasiswa'] ?></td>
+                    <td><?php echo $mhs['alamat_mahasiswa'] ?></td>
                     <td><img src="<?php echo base_url('upload/foto/' . $mhs['foto_ktp']) ?>" width="64"></td>
                     <td><img src="<?php echo base_url('upload/foto/' . $mhs['foto_diri']) ?>" width="64"></td>
                     <td><a href="<?php echo site_url('mahasiswa/edit_mahasiswa/') . $mhs['nim'] ?>" class="btn btn-primary btn-sm rounded-pill m-1"><i class="fas fa-edit">Edit</i></a>
