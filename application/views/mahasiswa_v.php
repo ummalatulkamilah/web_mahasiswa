@@ -34,7 +34,7 @@
                   <th>No</th>
                   <th scope="col">NIM</th>
                   <th scope="col">NAMA</th>
-                  <th scope="col">Alamat</th>
+                  <th scope="col">Alamat Mahasiswa</th>
                   <th scope="col">foto ktp</th>
                   <th scope="col">foto Diri</th>
                   <th scope="col">AKSI</th>
